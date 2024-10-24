@@ -1,0 +1,79 @@
+*{
+    font-family: "IM Fell French Canon SC", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  #tite{
+    font-size: 50px;
+    color: rgb(39, 101, 139);
+  }
+  #question_input{
+    width: 600px;   
+    height: 80px;
+  }
+  #question_input:hover{
+    border: 2px solid rgb(232, 190, 135);
+   width: 610px;
+    height: 85px;
+  }
+  #option1_input:hover, #option2_input:hover,#option3_input:hover, #option4_input:hover {
+    border: 2px solid rgb(232, 190, 135);
+ 
+  }
+  #answer_input:hover{
+    border: 2px solid rgb(232, 190, 135);
+  }
+  .headings, .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container{
+    gap: 6px;
+  }
+  #addQues{
+    border-color: rgb(173, 223, 191);
+    background-color: rgb(173, 223, 191);
+    margin-top: 20px;
+    width: 200px;
+    color: rgb(6, 30, 127);
+  }
+  #addQues:hover{
+    padding-bottom: 2px;
+    transition: all .2s ease-in-out; 
+    transform: scale(1.5); 
+    background-color: green;
+    color: white;
+    cursor: pointer;
+  }
+  #delQ{
+    border-color: rgb(161, 186, 48);
+    background-color: rgb(161, 186, 48);
+    color: rgb(77, 9, 9);
+
+    margin-top: 20px;
+    width: 200px;
+  }
+  #delQ:hover{
+    padding-bottom: 2px;
+    transition: all .2s ease-in-out; 
+    transform: scale(1.5); 
+    background-color: rgba(178, 81, 7, 0.709);
+    color: white;
+    cursor: pointer;
+  }
+  #loadAllQues{
+    border-color: rgb(160, 30, 160);
+    background-color: rgb(160, 30, 160);
+    color: rgb(247, 247, 247);
+    margin-top: 20px;
+    width: 200px;
+  }
+  #loadAllQues:hover{
+    padding-bottom: 2px;
+    transition: all .2s ease-in-out; 
+    transform: scale(1.5); 
+    background-color: rgba(178, 81, 7, 0.709);
+    color: white;
+    cursor: pointer;
+  }

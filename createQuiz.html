@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Quiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="headings">
+        <h1>Welcome to the <span id="tite" > Quiz creating app</span>.</h1>
+        <h2>Your own questions, your own answers (Yes, you read that right!)</h2>
+    </div>
+
+    <div class="container">
+        <div class="mainarea">
+            <form action="" onsubmit="">
+                <label for="question_input">Type your Question here:</label>
+            <input type="text" name="question_input" id="question_input" value="">
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="options_input">
+            <input type="text" name="option1_input" id="option1_input" required>
+            <label for="option1_input">Option 1</label>
+            <input type="text" name="option2_input" id="option2_input" required>
+            <label for="option2_input">Option 2</label>
+            <input type="text" name="option3_input" id="option3_input" required>
+            <label for="option3_input">Option 3</label>
+            <input type="text" name="option4_input" id="option4_input" required>
+            <label for="option4_input">Option 4</label>
+        </div>
+        <div class="answer_input">
+            <label for="answer_input">Correct Answer (1-4):</label>
+            <input type="number" name="answer_input" id="answer_input" placeholder="1-4" min="1" max="4" required>
+
+        </div>
+        <div class="btns">
+            <button type="submit" id="addQues">Add Question</button>
+        </div>
+    </form>
+        <br>
+        ____________________________________________________________________
+
+        <!-- output area -->
+        <h2>Your Saved Question is: </h2>
+        <span id="viewQuestion"></span>
+        <h2>Your Saved Options are: </h2>
+        <span id="viewOptions"></span>
+        <h2>Your Saved Answer is: </h2>
+        <span id="viewAnswer"></span>
+        <button type="reset" id="delQ"> Delete All Data</button>
+        ____________________________________________________________________
+        <button type="button" id="loadAllQues">View all Questions</button>
+        <span id="viewAllAnswer"></span>
+        <!-- <h4>Your Saved Question is: </h4>
+        <h4>Your Saved Options are:</h4>
+        <h4>Your Saved Answer is:</h4> -->
+        <h2>Your Saved Questions:</h2>
+        <div>
+            <div id="viewAQ"></div>
+            <div id="viewAO"></div>
+            <div id="viewAAn"></div>
+        </div>
+      
+
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
+
+
